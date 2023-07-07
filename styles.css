@@ -4,8 +4,29 @@ body {
     font-family: 'Ysabeau+SC', sans-serif;
     font-size: 16px;
     line-height: 1.5em;
-    color: #071a44;
+    color: #170056;
     background-color: #ececec;
+    width: 100%;
+}
+
+a {
+    color: #170056;
+}
+
+a:hover {
+    color: #be8e00;
+    opacity: 0.7;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+.avatar {
+    width: 200px;
+    border-bottom-right-radius: 20px;
+    margin-right: 20px;
 }
 
 .name {
@@ -18,25 +39,66 @@ body {
 }
 
 .info {
-
+    display: flex;
+    align-items: center;
 }
 
 .info-text {
+    flex-grow: 1;
+}
 
+.hobbies > * {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .hobbies {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .work {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.work > .head {
+    justify-content: left;
+}
+
+th, td {
+    text-align: center;
+    vertical-align: middle;
 }
 
 .code {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.projects > * {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
 }
